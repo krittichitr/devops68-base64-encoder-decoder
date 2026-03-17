@@ -21,4 +21,4 @@ app.get('/decode', (req, res) => {
   }
 });
 
-app.listen(3027, () => console.log('Base64 Encoder/Decoder API on port 3027'));
+app.listen(3027, '0.0.0.0', () => console.log('Base64 Encoder/Decoder API on port 3027'));
