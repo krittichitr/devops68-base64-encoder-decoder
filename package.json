@@ -1,5 +1,5 @@
 {
-  "name": "base64-encoder-decoder",
+  "name": "devops68-base64-encoder-decoder",
   "version": "1.0.0",
   "description": "API to encode and decode Base64",
   "main": "index.js",
