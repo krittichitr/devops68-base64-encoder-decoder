@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # กำหนดตัวแปร
-IP="100.53.132.251"
+IP="3.90.114.58"
 PORT="3027"
 ENDPOINT="/encode?text=test"
 URL="http://$IP:$PORT$ENDPOINT"

@@ -40,7 +40,7 @@ resource "aws_instance" "nodejs_server" {
               sudo apt-get install -y nodejs git
               
               cd /home/ubuntu
-              git clone https://github.com/krittichitr/devops68-base64-encoder-decoder.git myapp
+              git clone -b main https://github.com/krittichitr/devops68-base64-encoder-decoder.git myapp
               cd myapp
               npm install
               nohup npm start > app.log 2>&1 &
